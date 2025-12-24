@@ -23,5 +23,27 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 22
 
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+//console.log(stringNumber)
+//console.log(typeof stringNumber)
+
+// ************************* Operations **************************
+
+let value = 8
+let negValue = -value
+console.log(negValue)
+
+//Basic operations => +,-,*,**(power),/,%
+
+let str1 = "hello"
+let str2 = " piyush"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log(1 + "2" + 2)
+
+let x = 3
+let y = x++
+
+console.log(`x: ${x}`)
+console.log(`y: ${y}`)
